@@ -9,13 +9,13 @@ body {
   width: 1080px;
 }
 
-.starter-container {
+.container-1 {
   height: 80px;
-  width: 1440px;
+  width: 1040px;
   margin-left: 30px;
-  /* border: 1px solid red; */
   display: grid;
   grid-template-columns: 1fr 1fr;
+  border: 1px solid black;
 }
 
 .logo {
@@ -36,4 +36,33 @@ body {
   gap: 10px;
   background-color: #5d37f3;
   color: white;
+}
+
+/* .container-2 {
+  height: 300px;
+  width: 1440px;
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border: 1px solid red;
+} */
+
+.img-1 {
+  width: 624px;
+  height: 200px;
+  margin-top: -144px;
+  margin-left: 740px;
+}
+.blog-text {
+  width: 225px;
+  height: 72px;
+  margin-top: 208px;
+  margin-left: 89px;
+  font-family: FiraGO;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1a1a1f;
 }
