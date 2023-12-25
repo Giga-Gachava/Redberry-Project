@@ -15,7 +15,6 @@ body {
   margin-left: 30px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  border: 1px solid black;
 }
 
 .logo {
@@ -38,15 +37,6 @@ body {
   color: white;
 }
 
-/* .container-2 {
-  height: 300px;
-  width: 1440px;
-  margin-left: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  border: 1px solid red;
-} */
-
 .img-1 {
   width: 624px;
   height: 200px;
@@ -65,4 +55,58 @@ body {
   letter-spacing: 0em;
   text-align: left;
   color: #1a1a1f;
+}
+
+.container-2 {
+  width: Hug(684px);
+  height: Hug(32px);
+  margin-top: 408px;
+  margin-left: 378px;
+  gap: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+
+.market-button {
+  width: Hug(83px);
+  height: Hug(32px);
+  border-radius: 30px;
+  border: solid #ffba2f80;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background: #ffba2f80;
+}
+
+.aplication-button {
+  width: Hug(97px);
+  height: Hug(32px);
+  border-radius: 30px;
+  border: solid #1cd67cb5;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background: #1cd67cb5;
+}
+
+.market-text {
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #d6961c;
+}
+
+.aplication-text {
+  width: 65px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #15c972;
 }
