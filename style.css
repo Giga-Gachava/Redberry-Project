@@ -60,13 +60,12 @@ body {
 .container-2 {
   width: Hug(684px);
   height: Hug(32px);
-  margin-top: 408px;
+  margin-top: 108px;
   margin-left: 378px;
   gap: 24px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 
 .market-button {
@@ -77,6 +76,7 @@ body {
   padding: 8px, 16px, 8px, 16px;
   gap: 10px;
   background: #ffba2f80;
+  text-decoration: none;
 }
 
 .aplication-button {
@@ -87,6 +87,7 @@ body {
   padding: 8px, 16px, 8px, 16px;
   gap: 10px;
   background: #1cd67cb5;
+  text-decoration: none;
 }
 
 .market-text {
@@ -108,5 +109,281 @@ body {
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
-  background: #15c972;
+  color: #12884f;
+}
+
+.artifitial-inteligence {
+  width: Hug(178px);
+  height: Hug(32px);
+  border: 1px solid #000000;
+  border-radius: 30px;
+  background-color: #eee1f7;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  text-decoration: none;
+}
+
+.ai-text {
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #b71fdd;
+}
+
+.UIUX {
+  text-decoration: none;
+  width: Hug(95px);
+  height: Hug(62px);
+  border-radius: 30px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #fa57576b;
+}
+
+.UIUX-text {
+  width: 33px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dc2828;
+}
+
+.research {
+  width: Hug(77px);
+  height: Hug(32px);
+  border: 1px solid #000000;
+  border-radius: 30px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #e9efe9;
+  text-decoration: none;
+}
+
+.research-text {
+  width: 45px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #60be16;
+}
+
+.figma {
+  width: Hug(64px);
+  height: Hug(32px);
+  border-radius: 30px;
+  padding: 8px, 16px, 8px, 16px;
+  gap: 10px;
+  background-color: #08d2ad4e;
+  text-decoration: none;
+}
+
+.figma-text {
+  width: 32px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1ac7a8;
+}
+
+.blogs-container {
+  width: 1288px;
+  height: 620px;
+  margin-top: 100px;
+  margin-left: 100px;
+  gap: 32px;
+  border: 1px solid red;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.mini-conatiner {
+  width: 408px;
+  height: Hug(620px);
+  border: 1px solid black;
+}
+
+.nature-picture {
+  width: 408px;
+  height: 328px;
+  border-radius: 12px;
+}
+
+.authorinformation-1 {
+  width: Hug (164px);
+  height: Hug (44px);
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.authorname-1 {
+  width: 164px;
+  height: 20px;
+  font-family: FiraGO;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #1a1a1f;
+}
+
+.date {
+  width: 52px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #85858d;
+}
+
+.header {
+  width: 408px;
+  height: 56px;
+  font-family: FiraGO;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #0a0a0b;
+  margin-top: 15px;
+}
+
+.mini-navbar {
+  width: Hug(354px);
+  height: Hug(28px);
+  gap: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.marketbutton-1 {
+  width: Hug 71px;
+  height: Hug 28px;
+  border-radius: 30px;
+  padding: 6px, 10px, 6px, 10px;
+  background-color: #ffb82f14;
+  text-decoration: none;
+}
+
+.aplicationbutton-1 {
+  width: Hug (85px);
+  height: Hug (28px);
+  border-radius: 30px;
+  padding: 6px, 10px, 6px, 10px;
+  background-color: #1cd67d14;
+  text-decoration: none;
+}
+
+.artifitialinteligence-1 {
+  width: Hug (166px);
+  height: Hug (28px);
+  border-radius: 30px;
+  padding: 6px, 10px, 6px, 10px;
+  gap: 10px;
+  background-color: #b11cd614;
+  text-decoration: none;
+  margin-right: 125px;
+}
+
+.textinblog {
+  width: 408px;
+  height: 56px;
+  font-family: FiraGO;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #404049;
+  margin-top: 15px;
+}
+
+.readmore-container {
+  width: 130px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+.arrow-up {
+  width: 20px;
+  height: 20px;
+}
+
+.read-more {
+  width: 103px;
+  height: 20px;
+  font-family: FiraGO;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #5d37f3;
+}
+
+.UIUX1 {
+  width: Hug (53px);
+  height: Hug (28px);
+  border-radius: 30px;
+  padding: 6px, 10px, 6px, 10px;
+  gap: 10px;
+  text-decoration: none;
+  background-color: #fa575757;
+  margin-right: 30px;
+}
+
+.UItext {
+  width: 33px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #dc2828;
+}
+
+.research-1 {
+  width: Hug (65px);
+  height: Hug (28px);
+  border-radius: 30px;
+  padding: 6px, 10px, 6px, 10px;
+  gap: 10px;
+  text-decoration: none;
+  background: #70cf2514;
+}
+
+.researchtext-1 {
+  width: 45px;
+  height: 16px;
+  font-family: FiraGO;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #60be16;
 }
